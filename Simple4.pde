@@ -11,6 +11,7 @@ void draw() {
   background(255);
   translate(width/2, height/2);
   
+  
   while (cubs <= 30) { 
     rotate(radians(5*cubs));
     rect(0, 0, (width-100)/tamany, (height-100)/tamany);
